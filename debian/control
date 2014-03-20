@@ -1,0 +1,32 @@
+Source: device-n7-2013
+Section: embedded
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: device-n7-2013
+Architecture: all
+Description: Root device package for the Nexus 7 2013
+ This is the root device package for the Nexus 7 2013.
+ .
+ This package is a part of Pragmatux (http://pragmatux.org).
+Depends:
+ linux-n7-2013,
+ ptux-essential,
+ baseconfig-ptux,
+ systemd-sysv,
+ login-no-securetty,
+ dpkg-autoconfigure-at-boot,
+ vim-tiny,
+ procps,
+ wget,
+ module-init-tools,
+ accounts-root-password,
+ openssh-client,
+ openssh-server,
+ iproute,
+ iputils-ping,
+ apt-transport-https,
+ apt-source-ptux-device,
+ ${misc:Depends}
