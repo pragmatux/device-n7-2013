@@ -30,4 +30,6 @@ Depends:
  iputils-ping,
  apt-transport-https,
  apt-source-ptux-device,
+ android-n7-2013-wifi-aosp,
+ android-run,
  ${misc:Depends}
