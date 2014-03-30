@@ -19,6 +19,7 @@ Depends:
  dbus,
  login-no-securetty,
  dpkg-autoconfigure-at-boot,
+ hostname-androidboot-serialno,
  vim-tiny,
  procps,
  wget,
