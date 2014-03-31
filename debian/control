@@ -33,4 +33,5 @@ Depends:
  apt-source-ptux-device,
  android-n7-2013-wifi-aosp,
  android-run,
+ android-adb,
  ${misc:Depends}
